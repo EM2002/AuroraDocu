@@ -1,0 +1,14 @@
+{
+  "name": "aurora_documentation",
+  "version": "0.0.1",
+  "description": "Documentation for the Aurora D&D 5e character builder",
+  "license": "CC-BY 4.0",
+  "scripts": {
+    "dev": "npx docsify serve docs",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
